@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* 전체 화면 높이 */
+    background-color: #0000ff8d;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SUIT-Regular', sans-serif;
+}
+
+/* 사용자 정의 SweetAlert2 스타일 */
+.custom-popup {
+    font-family: 'SUIT-Regular', sans-serif;
+    position: relative;
+    border-radius: 10px; /* 둥근 모서리 */
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+    overflow: hidden;
+  }
+
+  
